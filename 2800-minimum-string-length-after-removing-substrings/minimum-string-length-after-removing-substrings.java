@@ -15,10 +15,6 @@ class Solution {
                 stack.push(ch);
             }
         }
-        StringBuilder ans = new StringBuilder();
-        for(int i=0;i<stack.size();i++){
-            ans.append(stack.get(i));
-        }
-        return ans.length();
+        return stack.size();
     }
 }
